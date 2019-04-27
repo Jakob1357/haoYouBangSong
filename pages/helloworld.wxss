@@ -1,0 +1,13 @@
+.LargeListOfService{
+  position: absolute;
+  left: 122rpx;
+  content: '';
+  width: 24rpx;
+  height: 12rpx;
+  background-color:#efefef;
+  border: 2rpx solid #e5e5e5;
+}
+.PlusOver{
+  position: absolute;
+  right: 0rpx;
+}
