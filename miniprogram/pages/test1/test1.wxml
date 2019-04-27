@@ -1,0 +1,30 @@
+<view class="div">
+    <view>{{storage}}</view>
+    <text class="head">项目列表</text>
+    <block wx:for="{{ne1}}" wx:for-item="item">
+      <view wx:if="{{item.username==storage}}">{{item.username}}</view>
+      <!-- <text class="lung">{{item.username}}</text> -->
+    </block>
+
+    
+</view> 
+
+<!-- <view class="div">
+
+    <text class="head">项目列表</text>
+
+    <block  wx:for="{{ne1}}" wx:for-item="item">
+
+    <text class="name">{{item.username}}</text>
+
+    </block>
+
+    <block  wx:for="{{ne2}}" wx:for-item="cell">
+
+    <text class="name1">{{cell.username}}</text>
+<!-- <view wx:if="{{item.username==cell.username}}">{{item.username}}&{{cell.username}}</view> -->
+          <!-- <text class="name">{{item.username}}{{cell.username}}</text> -->
+
+<!-- <text class="name">{{item.username}}</text> -->
+    <!-- </block>
+</view> -->

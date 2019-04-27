@@ -1,0 +1,6 @@
+<!--pages/test/success/success.wxml-->
+<text>提交成功</text>
+
+<view catchtap="onTapToNeed" class='need'>
+  <text>添加</text>
+</view>

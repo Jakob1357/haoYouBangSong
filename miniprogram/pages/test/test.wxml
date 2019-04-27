@@ -1,0 +1,9 @@
+<!--pages/test/test.wxml-->
+<!-- 添加 -->
+<form bindsubmit='res'>  
+<view class="section">    
+<input maxlength="10" name="username" placeholder="" bindinput="getInput"/>  
+</view>
+<view><button form-type='submit' bindtap='onTapToSuccess' >提交</button></view>
+</form>
+

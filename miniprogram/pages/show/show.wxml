@@ -1,0 +1,18 @@
+
+<!-- 读取数据 -->
+<view class="div">
+
+<text class="head">项目列表</text>
+
+<view  wx:for="{{ne}}" wx:for-item="item">
+<!-- <view  wx:for="{{ne1}}" wx:for-item="item1">
+<view wx:if="{{item.username}}=={{item1.username}}">{{item.username}}&{{item1.username}} -->
+
+<text class="name">{{item.username}}</text>
+
+<!-- </view>
+</view> -->
+</view>
+<button form-type='submit' bindtap='onTapToSuccess'>提交</button>
+
+</view>
