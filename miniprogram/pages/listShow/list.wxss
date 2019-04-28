@@ -100,7 +100,16 @@
   height: 42px;
   bottom: 30px;
   right: 20px;
+}
 
+.front-button{
+  position: fixed;
+  height: 42rpx;
+  top: 0rpx;
+  width: 32%;  
+  float: left;  
+  text-align: center;  
+  padding-top: 8px;
 }
 
 .open-data-userAvatarUrl {
