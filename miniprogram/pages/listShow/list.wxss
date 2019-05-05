@@ -17,6 +17,7 @@
  margin: 16rpx 0;
  border: 2rpx solid #e5e5e5;
  border-width: 2rpx 0;
+ top: 70rpx;
 }
 
 .info-list .info-list-item::before,.info-list .info-list-item::after {
@@ -27,9 +28,9 @@
  height: 12rpx;
  background-color: #efefef;
  border: 2rpx solid #e5e5e5;
-}
+} 
 
-.info-list .info-list-item::before {
+ .info-list .info-list-item::before {
   border-radius: 0 0 60rpx 60rpx;
   border-top: none;
   top: -2rpx;
@@ -102,14 +103,28 @@
   right: 20px;
 }
 
-.front-button{
+.front-button1{
   position: fixed;
-  height: 42rpx;
+  height: 70rpx;
   top: 0rpx;
-  width: 32%;  
-  float: left;  
-  text-align: center;  
-  padding-top: 8px;
+  width: 50%;  
+  /* float: left;  */
+  /* text-align: center; */
+  font-size: 30rpx;
+  background-color: rgb(221, 206, 206);
+}
+
+.front-button2{
+  position: fixed;
+  height: 70rpx;
+  top: 0rpx;
+  right: 0rpx;
+  width: 50%;  
+  float: right;  
+  text-align: center;
+  font-size: 30rpx;
+  /* padding-top: 8rpx; */
+  background-color: rgb(255, 255, 255);
 }
 
 .open-data-userAvatarUrl {
