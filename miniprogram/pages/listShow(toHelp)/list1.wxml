@@ -10,7 +10,8 @@
         </view>
         <view class="end">
           <text class="icon-circle s-icon2">停留时间：11:30-12:30\n</text>
-          <text class="icon-circle s-icon3">停留地点：XXX\n</text>
+          <text class="icon-circle s-icon3">帮带地点：XXX\n</text>
+          <text class="icon-circle s-icon4">最终地点：XXX\n</text>
         </view>
       </view>
     </view>

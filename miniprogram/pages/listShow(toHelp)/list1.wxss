@@ -113,6 +113,9 @@
   font-size: 30rpx;
   background-color: rgb(255, 255, 255);
 }
+.front-button1::after{
+  border: 0;
+}
 
 .front-button2{
   position: fixed;
@@ -125,6 +128,9 @@
   font-size: 30rpx;
   /* padding-top: 8rpx; */
   background-color: rgb(221, 206, 206);
+}
+.front-button2::after{
+  border: 0;
 }
 
 .open-data-userAvatarUrl {
