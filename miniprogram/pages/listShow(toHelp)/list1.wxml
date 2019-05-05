@@ -1,0 +1,27 @@
+
+<view class="page-wrapper ">
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">停留时间：11:30-12:30\n</text>
+          <text class="icon-circle s-icon3">停留地点：XXX\n</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view bindtap='adddetial'>
+      <image class="add-icon" src="../../images/PLUS.png"></image>
+</view>
+
+<button bindtap='skipForHelp' class="front-button1">求助</button>
+<button class="front-button2">帮助</button>
+

@@ -140,5 +140,5 @@
 </view>
 
 <button class="front-button1">求助</button>
-<button class="front-button2">帮助</button>
+<button bindtap='skipToHelp' class="front-button2">帮助</button>
 

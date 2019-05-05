@@ -7,9 +7,9 @@ Page({
       complete: function (res) { },
     })
   },
-  skipToHelp: function(){
+  skipForHelp: function () {
     wx.navigateTo({
-      url: '../listShow(toHelp)/list1',
+      url: '../listShow(forHelp)/list',
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },

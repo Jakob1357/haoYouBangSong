@@ -2,7 +2,7 @@
   "cloud": true,
   "pages": [
     "pages/listShow(forHelp)/list",
-    
+    "pages/listShow(toHelp)/list1",
     "pages/test/test",
     "pages/test1/test1",
     "pages/show/show",
