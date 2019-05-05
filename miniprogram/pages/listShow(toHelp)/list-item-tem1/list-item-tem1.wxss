@@ -17,7 +17,6 @@
  margin: 16rpx 0;
  border: 2rpx solid #e5e5e5;
  border-width: 2rpx 0;
- top: 70rpx;
 }
 
 .info-list .info-list-item::before,.info-list .info-list-item::after {
@@ -28,9 +27,9 @@
  height: 12rpx;
  background-color: #efefef;
  border: 2rpx solid #e5e5e5;
-} 
+}
 
- .info-list .info-list-item::before {
+.info-list .info-list-item::before {
   border-radius: 0 0 60rpx 60rpx;
   border-top: none;
   top: -2rpx;
@@ -97,40 +96,7 @@
 
 .add-icon{
   position: fixed;
-  width: 42px;
-  height: 42px;
   bottom: 30px;
-  right: 20px;
-}
-
-.front-button1{
-  position: fixed;
-  height: 100rpx;
-  top: 0rpx;
-  width: 50%;
-  /* float: left;  */
-  /* text-align: center; */
-  font-size: 40rpx;
-  background-color: rgb(255, 255, 255);
-}
-.front-button1::after{
-  border: 0;
-}
-
-.front-button2{
-  position: fixed;
-  height: 100rpx;
-  top: 0rpx;
-  right: 0rpx;
-  width: 50%;  
-  float: right;  
-  text-align: center;
-  font-size: 40rpx;
-  /* padding-top: 8rpx; */
-  background-color: rgb(221, 206, 206);
-}
-.front-button2::after{
-  border: 0;
 }
 
 .open-data-userAvatarUrl {

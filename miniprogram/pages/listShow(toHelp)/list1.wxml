@@ -1,4 +1,9 @@
-
+<text class="head">项目列表</text>
+<import src="list-item-tem1/list-item-tem1"/>
+<!-- <block wx:for="{{list1}}" wx:for-item="item"  wx:for-index="idx"> -->
+<template is="listTemplate" data="{{list1}}"/>
+<!-- </block> -->
+<!-- 
 <view class="page-wrapper ">
   <view class="info-list js_info_list ">
     <view data-supplierid="100020" data-key="" class="info-list-item  ">
@@ -16,7 +21,7 @@
       </view>
     </view>
   </view>
-</view>
+</view> -->
 
 
 <view bindtap='adddetial'>

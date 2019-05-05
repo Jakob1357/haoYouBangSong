@@ -105,12 +105,12 @@
 
 .front-button1{
   position: fixed;
-  height: 70rpx;
+  height: 100rpx;
   top: 0rpx;
   width: 50%;
   /* float: left;  */
   /* text-align: center; */
-  font-size: 30rpx;
+  font-size: 40rpx;
   background-color: rgb(221, 206, 206);
 }
 .front-button1::after{
@@ -119,13 +119,13 @@
 
 .front-button2{
   position: fixed;
-  height: 70rpx;
+  height: 100rpx;
   top: 0rpx;
   right: 0rpx;
   width: 50%;  
   float: right;  
   text-align: center;
-  font-size: 30rpx;
+  font-size: 40rpx;
   /* padding-top: 8rpx; */
   background-color: rgb(255, 255, 255);
 }
