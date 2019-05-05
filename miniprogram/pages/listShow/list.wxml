@@ -1,3 +1,4 @@
+
 <view class="page-wrapper ">
   <view class="info-list js_info_list ">
     <view data-supplierid="100020" data-key="" class="info-list-item  ">
@@ -138,6 +139,6 @@
       <image class="add-icon" src="../../images/PLUS.png"></image>
 </view>
 
-<view>
-  <text class="front-button">求助</text>
-</view>
+<button class="front-button1">求助</button>
+<button class="front-button2">帮助</button>
+
