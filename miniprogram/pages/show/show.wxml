@@ -1,18 +1,19 @@
 
 <!-- 读取数据 -->
-<view class="div">
+<!-- <view class="div">
 
 <text class="head">项目列表</text>
 
-<view  wx:for="{{ne}}" wx:for-item="item">
-<!-- <view  wx:for="{{ne1}}" wx:for-item="item1">
-<view wx:if="{{item.username}}=={{item1.username}}">{{item.username}}&{{item1.username}} -->
+<view  wx:for="{{list}}">
 
-<text class="name">{{item.username}}</text>
+<text class='time'>{{item.time}}</text>
 
-<!-- </view>
+</view>
+
+
 </view> -->
-</view>
-<button form-type='submit' bindtap='onTapToSuccess'>提交</button>
-
-</view>
+<text class="head">项目列表</text>
+<import src="show-tpl/show-tpl.wxml"/>
+<block wx:for="{{list}}" wx:for-item="item"  wx:for-index="idx">
+  <template is="showtpl" data="{{item}}"/>
+</block>

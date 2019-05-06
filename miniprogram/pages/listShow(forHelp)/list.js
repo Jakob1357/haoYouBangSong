@@ -1,14 +1,14 @@
 Page({
   adddetial: function () {
     wx.navigateTo({
-      url: '../adddetial/adddetial',
+      url: '../needCard/needCard',
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },
     })
   },
   skipToHelp: function(){
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../listShow(toHelp)/list1',
       success: function (res) { },
       fail: function (res) { },
@@ -41,10 +41,10 @@ Page({
           })
         }
       })
-    this.setData({
-      type: options.type,
-    });
-    console.log(options.type);
+    // this.setData({
+    //   type: options.type,
+    // });
+    // console.log(options.type);
   },
   onTapToSuccess: function () {
     wx.navigateTo({

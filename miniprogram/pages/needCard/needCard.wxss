@@ -1,0 +1,37 @@
+.need {
+    margin: 0;
+    font-size: 28rpx;
+    line-height: 1.5;
+    color: #333;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    min-height:2000rpx;
+}
+
+.needtext{
+  margin: 265rpx;
+  height: 100rpx;
+  width: 200rpx;
+  font-size: 100rpx; 
+}
+
+.card{
+  background-color: #fffbfb;
+  margin: 50rpx;
+}
+
+.section1{
+  font-size: 40;
+  color: #b42828;
+}
+
+.blank1{
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+/* .tap{
+  margin: 80rpx
+} */

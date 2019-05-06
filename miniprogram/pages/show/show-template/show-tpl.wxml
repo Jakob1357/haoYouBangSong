@@ -1,0 +1,3 @@
+<template name="showtpl">
+  <text>{{item.time}}</text>
+</template>

@@ -1,0 +1,115 @@
+.res1{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+  margin-left:10px;
+  float:left;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+.res2{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+ margin-left:10px;
+ float:left;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+.res3{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+ margin-left:10px;
+ float:left;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+.res4{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+ margin-left:10px;
+ float:left;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+
+.res5{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+  margin-right:10px;
+  float:right;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+
+.res6{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+  margin-right:10px;
+  float:right;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+.res7{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+  margin-right:10px;
+  float:right;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+.res8{
+  width:130px;
+  border-radius: 3px;
+  margin-top: 35px; 
+  margin-right:10px;
+  float:right;
+  padding-top:2px;
+  font-size:24px;
+  background-color:#CC3333;
+  border:1px solid #CC3333;
+  color:white;
+  overflow:hidden;
+  height:70px;
+}
+

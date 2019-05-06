@@ -1,3 +1,4 @@
+@import"/pages/listShow/list-item-tem/list-item-tem.wxss";
 .page-wrapper {
     margin: 0;
     font-size: 28rpx;
@@ -17,7 +18,7 @@
  margin: 16rpx 0;
  border: 2rpx solid #e5e5e5;
  border-width: 2rpx 0;
- top: 30rpx;
+ top: 70rpx;
 }
 
 .info-list .info-list-item::before,.info-list .info-list-item::after {
@@ -105,12 +106,12 @@
 
 .front-button1{
   position: fixed;
-  height: 80rpx;
+  height: 100rpx;
   top: 0rpx;
   width: 50%;
   /* float: left;  */
   /* text-align: center; */
-  font-size: 35rpx;
+  font-size: 40rpx;
   background-color: rgb(255, 255, 255);
 }
 .front-button1::after{
@@ -119,13 +120,13 @@
 
 .front-button2{
   position: fixed;
-  height: 80rpx;
+  height: 100rpx;
   top: 0rpx;
   right: 0rpx;
   width: 50%;  
   float: right;  
   text-align: center;
-  font-size: 35rpx;
+  font-size: 40rpx;
   /* padding-top: 8rpx; */
   background-color: rgb(221, 206, 206);
 }

@@ -1,4 +1,4 @@
-<text class="head">项目列表</text>
+
 <import src="list-item-tem1/list-item-tem1"/>
 <!-- <block wx:for="{{list1}}" wx:for-item="item"  wx:for-index="idx"> -->
 <template is="listTemplate" data="{{list1}}"/>

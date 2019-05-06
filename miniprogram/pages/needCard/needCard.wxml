@@ -1,0 +1,33 @@
+<view class='need'>
+  <text class='needtext'>需求</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <view class='card'>
+    <form bindsubmit='res'>  
+      <view class="section1">    
+      <input maxlength="10" name="restaurant" placeholder="请您输入餐厅"     bindinput="getInput"/>  
+      </view>
+      <text>\n</text>
+      <view class="section1">    
+      <input maxlength="10" name="needIn" placeholder="请您输入需求信息" bindinput="getInput"/>  
+      </view>
+      <text>\n</text>
+      <view class="section1">    
+      <input maxlength="10" name="time" placeholder="请您输入时间区间" bindinput="getInput"/>  
+      </view>
+      <text>\n</text>
+      <view class="section1">    
+      <input maxlength="10" name="phoneNumber" placeholder="请您输入联系方式" bindinput="getInput"/>  
+      </view>
+      <text>\n</text>
+      <view class="section1">    
+      <input maxlength="10" name="more" placeholder="请您输入备注"     bindinput="getInput"/>  
+      </view>
+      <text class='blank1'>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</text>
+      <text class='blank1'>\n</text>
+      <view class='tap'><button form-type='submit' bindtap='onTapToSuccess' >提交</button></view>
+    </form>
+  </view>
+</view>

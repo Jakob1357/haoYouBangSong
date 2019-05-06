@@ -1,0 +1,4 @@
+<button bindtap="onTapToMatch1"  class='res1'>美食园</button><button bindtap="onTapToMatch5"  class='res5'>Luckin</button>
+<button bindtap="onTapToMatch2"  class='res2'>风味餐厅</button><button bindtap="onTapToMatch6"  class='res6'>奥运餐厅</button>
+<button bindtap="onTapToMatch3"  class='res3'>清真</button><button bindtap="onTapToMatch7"  class='res7'>北食</button>
+<button bindtap="onTapToMatch4"  class='res4'>京客隆</button><button bindtap="onTapToMatch8"  class='res8'>天天餐厅</button>

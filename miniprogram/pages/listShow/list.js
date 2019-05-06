@@ -1,20 +1,6 @@
 Page({
-  adddetial: function () {
-    wx.navigateTo({
-      url: '../helpCard/helpCard',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
-  },
-  skipForHelp: function () {
-    wx.redirectTo({
-      url: '../listShow(forHelp)/list',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
-  },
+
+
   /**
    * 页面的初始数据
    */
@@ -41,10 +27,10 @@ Page({
           })
         }
       })
-    // this.setData({
-    //   type: options.type,
-    // });
-    // console.log(options.type);
+    this.setData({
+      type: options.type,
+    });
+    console.log(options.type);
   },
   onTapToSuccess: function () {
     wx.navigateTo({
@@ -62,7 +48,7 @@ Page({
   },
 
 
-
+  
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -112,4 +98,5 @@ Page({
   onShareAppMessage: function () {
 
   }
+
 })

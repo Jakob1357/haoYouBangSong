@@ -1,6 +1,7 @@
 <view class="page-wrapper ">
 <template name="listTemplate">
 <block wx:for="{{list1}}" wx:for-item="item"  wx:for-index="idx" >
+<view wx:if="{{item.way==1}}">
   <view class="info-list js_info_list ">
     <view data-supplierid="100020" data-key="" class="info-list-item  ">
       <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data></view>
@@ -16,6 +17,7 @@
       </view>
     </view>
     </view>
+</view>
 </block>
 </template>
 </view>

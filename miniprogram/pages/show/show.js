@@ -5,9 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    ne:[]
+    list:[]
 
   },
+
 
   /**
    * 生命周期函数--监听页面加载
@@ -19,12 +20,11 @@ Page({
       env:'hyb-1ab04c'
     })
     db.collection('test').where({
-      // _openid:'o1xC-4iMJhWMVbcYNTt1YALqHH18'
     })
       .get({
         success: res=>{
           this.setData({
-            ne:res.data
+            list:res.data
           })
         }
       })

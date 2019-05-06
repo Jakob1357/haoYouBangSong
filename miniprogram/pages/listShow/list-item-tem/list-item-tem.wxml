@@ -1,7 +1,6 @@
-<view class="page-wrapper ">
 <template name="listTemplate">
 <block wx:for="{{list1}}" wx:for-item="item"  wx:for-index="idx" >
-<view wx:if="{{item.way==2}}">
+  <view class="page-wrapper ">
   <view class="info-list js_info_list ">
     <view data-supplierid="100020" data-key="" class="info-list-item  ">
       <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data></view>
@@ -11,14 +10,13 @@
         <text class="icon-circle s-icon1">XXX</text>
       </view>
         <view class="end">
-          <text class="icon-circle s-icon2">需求时间：{{item.time}}\n</text>
+          <text class="icon-circle s-icon2">需求时间: {{item.time}}\n</text>
           <text class="icon-circle s-icon3">需求地点：{{item.restaurant}}\n</text>
           <text class="icon-circle s-icon4">需求物品：{{item.needIn}}</text>
         </view>
       </view>
     </view>
     </view>
-</view>
+  </view>
 </block>
 </template>
-</view>

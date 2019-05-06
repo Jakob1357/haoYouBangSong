@@ -1,0 +1,155 @@
+<!-- <view class="page-wrapper ">
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="helpbutton"> 帮TA 
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">需求时间：11:30-12:30\n</text>
+          <text class="icon-circle s-icon3">需求地点：XXX\n</text>
+          <text class="icon-circle s-icon4">需求物品：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="helpbutton"> 帮TA 
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">需求时间：11:30-12:30\n</text>
+          <text class="icon-circle s-icon3">需求地点：XXX\n</text>
+          <text class="icon-circle s-icon4">需求物品：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="helpbutton"> 帮TA 
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">需求时间：11:30-12:30\n</text>
+          <text class="icon-circle s-icon3">需求地点：XXX\n</text>
+          <text class="icon-circle s-icon4">需求物品：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="helpbutton"> 帮TA 
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">需求时间：</text>
+          <text class='time'>{{item.time}}</text>
+          <text>\n</text>
+          <text class="icon-circle s-icon3">需求地点：XXX\n</text>
+          <text class="icon-circle s-icon4">需求物品：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+<<<<<<< Updated upstream
+
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="helpbutton"> 帮TA 
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">需求时间：11:30-12:30\n</text>
+          <text class="icon-circle s-icon3">需求地点：XXX\n</text>
+          <text class="icon-circle s-icon4">需求物品：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="helpbutton"> 帮TA 
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">需求时间：11:30-12:30\n</text>
+          <text class="icon-circle s-icon3">需求地点：XXX\n</text>
+          <text class="icon-circle s-icon4">需求物品：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
+      </view>
+      <view class="helpbutton"> 帮TA 
+      </view>
+      <view class="detail">
+        <view class="start">
+          <text class="icon-circle s-icon1">XXX</text>
+        </view>
+        <view class="end">
+          <text class="icon-circle s-icon2">需求时间：11:30-12:30\n</text>
+          <text class="icon-circle s-icon3">需求地点：XXX\n</text>
+          <text class="icon-circle s-icon4">需求物品：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view bindtap='adddetial'>
+      <image class="add-icon" src="../../images/PLUS.png"></image>
+</view>
+
+<view>
+  <text class="front-button">求助</text>
+</view>
+=======
+</view> -->
+<!-- new -->
+<text class="head">项目列表</text>
+<import src="list-item-tem/list-item-tem.wxml"/>
+<!-- <block wx:for="{{list1}}" wx:for-item="item"  wx:for-index="idx"> -->
+<template is="listTemplate" data="{{list1}}"/>
+<!-- </block> -->
+
