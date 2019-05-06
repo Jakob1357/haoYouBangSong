@@ -1,6 +1,7 @@
 {
   "cloud": true,
   "pages": [
+    "pages/orderList/orderList",
     "pages/listShow(forHelp)/list",
     "pages/listShow(toHelp)/list1",
     "pages/test/test",
