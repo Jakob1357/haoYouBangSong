@@ -16,7 +16,7 @@ Page({
   },
   onTapToMatch1:function(){
     wx.navigateTo({
-      url: "/pages/listShow/list?type=1"
+      url: "/pages/listShow(forHelp)/list?type=1"
     });
   },
 
