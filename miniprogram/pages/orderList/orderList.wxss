@@ -15,7 +15,7 @@
  height: 280rpx;
  background-color: rgb(255, 255, 255); 
  margin: 16rpx 0;
- border: 2rpx solid #e5e5e5;
+ border-bottom: 2rpx solid #e5e5e5;
  border-width: 2rpx 0;
  top: 5rpx;
 }
@@ -99,7 +99,7 @@
 }
 
 .info-list .info-list-item .situation{
-  font-size: 35rpx;
+  font-size: 40rpx;
   color: rgb(69, 197, 69);
   text-align: right;
   font-weight: 700;
