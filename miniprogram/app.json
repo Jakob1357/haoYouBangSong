@@ -1,7 +1,8 @@
 {
   "cloud": true,
   "pages": [
-    "pages/main/main",
+    
+    "pages/main/main","pages/personManagement/personManagement",
     "pages/orderList/orderList",
     "pages/listShow(forHelp)/list",
     "pages/needCard/needCard",
@@ -35,14 +36,20 @@
     "list": [
       {
         "pagePath": "pages/main/main",
+        "iconPath":"images/shouye.png",
+        "selectedIconPath":"images/shouye1.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/main/main",
+        "iconPath": "images/dingdan.png",
+        "selectedIconPath": "images/dingdan1.png",
         "text": "订单"
       },
       {
-        "pagePath": "pages/main/main",
+        "pagePath": "pages/personManagement/personManagement",
+        "iconPath": "images/gerenzhongxin.png",
+        "selectedIconPath": "images/gerenzhongxin1.png",
         "text": "个人中心"
       }
     ]
