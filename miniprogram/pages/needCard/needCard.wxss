@@ -86,6 +86,23 @@
   margin-left: 90rpx;
 }
 
+.square{
+  border: 8rpx dotted gray;
+  margin-top: 100rpx;
+  height: 100rpx;
+  font-size: 30rpx;
+}
+
+.wenxin-text{
+  font-size: 30rpx;
+  color: red;
+  font-weight: 700;
+}
+
+.text{
+  font-size:20rpx;
+}
+
 /* .tap{
   margin: 80rpx
 } */

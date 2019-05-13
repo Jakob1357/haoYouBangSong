@@ -1,8 +1,9 @@
 {
   "cloud": true,
   "pages": [
-    
-    "pages/personManagement/personManagement","pages/needCard/needCard",
+    "pages/helpCard/helpCard",
+    "pages/needCard/needCard",
+    "pages/personManagement/personManagement",
     "pages/main/main",
     "pages/orderList/orderList",
     "pages/listShow(forHelp)/list",

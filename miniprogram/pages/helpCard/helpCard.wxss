@@ -40,7 +40,7 @@
   /* float: left;  */
   /* text-align: center; */
   font-size: 40rpx;
-  background-color: rgb(221, 206, 206);
+  background-color: rgb(255, 255, 255);
 }
 .front-button1::after{
   border: 0;
@@ -56,10 +56,39 @@
   text-align: center;
   font-size: 40rpx;
   /* padding-top: 8rpx; */
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(221, 206, 206);
 }
 .front-button2::after{
   border: 0;
+}
+
+.tapType{
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: rgb(47, 165, 62);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.square{
+  border: 8rpx dotted gray;
+  margin-top: 100rpx;
+  height: 100rpx;
+  font-size: 30rpx;
+}
+
+.wenxin-text{
+  font-size: 30rpx;
+  color: red;
+  font-weight: 700;
+}
+
+.text{
+  font-size:20rpx;
 }
 
 /* .tap{

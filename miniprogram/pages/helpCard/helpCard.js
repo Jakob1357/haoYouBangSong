@@ -117,6 +117,15 @@ Page({
 
   },
 
+  skipNeedCard: function () {
+    wx.redirectTo({
+      url: '../needCard/needCard',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
   /**
    * 用户点击右上角分享
    */
