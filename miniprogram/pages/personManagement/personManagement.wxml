@@ -32,7 +32,7 @@
   <view>\n</view> -->
   
   <view class="list-item">    
-    <image class="item-image" src="../../images/xunibi.png"></image>
+    <image bindtap="skipVirtualMoney" class="item-image" src="../../images/xunibi.png"></image>
     <text bindtap="skipVirtualMoney" class="item-text">虚拟币</text>
   </view>
   <view>\n</view>
@@ -40,7 +40,7 @@
   <view>\n</view>
 
   <view class="list-item">
-    <image class="item-image" src="../../images/fankui.png"></image>
-    <text class="item-text">反馈</text>  
+    <image bindtap="skipFeedback" class="item-image" src="../../images/fankui.png"></image>
+    <text bindtap="skipFeedback" class="item-text">反馈</text>  
   </view>  
 </view>

@@ -1,0 +1,33 @@
+/* pages/feedback/success/success.wxss */
+.topStyle {      
+  display: flex;      
+  flex-direction: column;      
+  align-items: center;      
+  background: #e8e7e9;   
+  margin-top: 150rpx;    
+  width: 100%;     
+  height: 200rpx;
+}
+.topText{
+  margin-top: 55rpx;
+  font-size: 60rpx;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(90, 87, 87);
+}
+.tapType{
+  width: 80%;
+  margin-top: 60rpx;
+  background-color: rgb(47, 165, 62);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tapType::after{
+  border-radius: 98rpx;
+  border: 0;
+}

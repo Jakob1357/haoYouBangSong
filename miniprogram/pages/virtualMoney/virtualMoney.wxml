@@ -1,6 +1,6 @@
 <!--pages/virtualMoney/virtualMoney.wxml-->
 <view class="topStyle">
-  <text class="topStyle-text1">现有虚拟币数量\n</text>
+  <text class="topStyle-text1">当前虚拟币数量\n</text>
   <text class="topStyle-text2">25</text>
 </view>
 

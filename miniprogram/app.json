@@ -2,12 +2,14 @@
   "cloud": true,
   "pages": [
     
-    "pages/virtualMoney/virtualMoney",
     "pages/main/main",
+    "pages/feedback/feedback",
+    "pages/feedback/success/success",
+    "pages/orderList/orderList",
+    "pages/virtualMoney/virtualMoney",
     "pages/helpCard/helpCard",
     "pages/needCard/needCard",
     "pages/personManagement/personManagement",
-    "pages/orderList/orderList",
     "pages/listShow(forHelp)/list",
     "pages/listShow/list",
     "pages/listShow(toHelp)/list1",

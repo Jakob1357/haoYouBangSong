@@ -1,4 +1,4 @@
-// pages/personManagement/personManagement.js
+// pages/feedback/success/success.js
 Page({
 
   /**
@@ -63,22 +63,13 @@ Page({
   onShareAppMessage: function () {
 
   },
-
-  skipVirtualMoney: function () {
-    wx.navigateTo({
-      url: '../virtualMoney/virtualMoney',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
+  skipMain: function () {
+    wx.navigateBack({
+      // url: 'pages/main/main',
+      // success: function (res) { },
+      // fail: function (res) { },
+      // complete: function (res) { },
+      delta: 2
     })
   },
-
-  skipFeedback: function () {
-    wx.navigateTo({
-      url: '../feedback/feedback',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
-  }
 })

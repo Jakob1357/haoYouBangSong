@@ -1,0 +1,13 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='topStyle'>
+  <text class='topText'>请选择您想反馈给我们的信息</text>
+</view>
+
+<block wx:for="{{itemList}}" wx:key="id">  
+  <view class='item_container' bindtap='itemSelected' data-index='{{index}}'>     
+    <image class='select_icon' src="{{item.isSelected?'/images/xuanzhong.png':'/images/weixuanzhong.png'}}"></image>    
+     <text class='text'>{{item.name}}</text>  
+  </view>
+</block>
+
+<view><button bindtap="skipSuccess" class='tapType'>提交</button></view>
