@@ -1,7 +1,6 @@
 <view class='need'>
-  <text class='needtext'>需求</text>
-  <text>\n</text>
-  <text>\n</text>
+  <!-- <text class='needtext'>需求</text>
+  <!-- <text>\n</text> -->
   <text>\n</text>
   <text>\n</text>
   <view class='card'>
@@ -15,7 +14,7 @@
       </view>
       <text>\n</text>
       <view class="section1">    
-      <input maxlength="10" name="time" placeholder="请您输入时间区间" bindinput="getInput"/>  
+      <input maxlength="10" name="time" placeholder="请您输入时间区间(如11：30-12：30)" bindinput="getInput"/>  
       </view>
       <text>\n</text>
       <view class="section1">    
@@ -27,7 +26,13 @@
       </view>
       <text class='blank1'>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</text>
       <text class='blank1'>\n</text>
-      <view class='tap'><button form-type='submit' bindtap='onTapToSuccess' >提交</button></view>
+      <view><button class='tapType' form-type='submit' bindtap='onTapToSuccess' >提交</button></view>
+      <view class="line"></view>
     </form>
   </view>
 </view>
+
+
+
+<button class="front-button1">求助</button>
+<button class="front-button2">帮助</button>

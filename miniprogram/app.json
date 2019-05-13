@@ -2,10 +2,10 @@
   "cloud": true,
   "pages": [
     
-    "pages/main/main","pages/personManagement/personManagement",
+    "pages/personManagement/personManagement","pages/needCard/needCard",
+    "pages/main/main",
     "pages/orderList/orderList",
     "pages/listShow(forHelp)/list",
-    "pages/needCard/needCard",
     "pages/listShow/list",
     "pages/listShow(toHelp)/list1",
     "pages/test/test",
@@ -41,7 +41,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/main/main",
+        "pagePath": "pages/orderList/orderList",
         "iconPath": "images/dingdan.png",
         "selectedIconPath": "images/dingdan1.png",
         "text": "订单"

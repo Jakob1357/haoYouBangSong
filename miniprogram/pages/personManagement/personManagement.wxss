@@ -78,22 +78,25 @@
   display: flex;      
   flex-direction: column;      
   align-items: left;
+  margin-top: 30rpx;
 }
 .list-item {          
   display: flex;      
   flex-direction: row;      
-  align-items: center;      
-  height: 80rpx;
+  align-items: center;
+  height: 100rpx;
 }
 .item-image {      
-  width: 40rpx;      
-  height: 40rpx;      
+  width: 60rpx;      
+  height: 60rpx;      
   margin: 20rpx;
 }
 .item-text {      
   color: gray;      
-  font-size: 30rpx;      
+  font-size: 40rpx;      
   margin-left: 20rpx;
+  font-family: "微软雅黑";
+  font-weight: 700;
 }
 .person-line {     
   width: 80%;      

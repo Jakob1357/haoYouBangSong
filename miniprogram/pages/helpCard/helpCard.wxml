@@ -31,3 +31,6 @@
     </form>
   </view>
 </view>
+
+<button class="front-button1">求助</button>
+<button class="front-button2">帮助</button>

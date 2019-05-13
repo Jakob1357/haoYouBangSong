@@ -21,22 +21,26 @@
   </block>
 </view>
 <view class="separate"></view> -->
+<view>\n</view>
 <view class="person-list">   
-  <view class="list-item">    
-    <image class="item-image" src="../../images/person/personal_card.png"></image>
-    <text class="item-text">好友管理</text>  
+  <!-- <view class="list-item">    
+    <image class="item-image" src="../../images/haoyouguanli.png"></image>
+    <text class="item-text">好友管理</text>   
   </view>  
+   <view>\n</view>
   <view class="person-line"></view>  
-  <view class="list-item">    
-    <image class="item-image" src="../../images/person/personal_favorite.png"></image>
-    <text class="item-text">虚拟币</text>  
-  </view>
+  <view>\n</view> -->
   
-  <view class="line"></view>
-
-  <view class="person-line"></view>  
   <view class="list-item">    
-    <image class="item-image" src="../../images/person/personal_site.png"></image>
+    <image class="item-image" src="../../images/xunibi.png"></image>
+    <text class="item-text">虚拟币</text>
+  </view>
+  <view>\n</view>
+  <view class="person-line"></view>  
+  <view>\n</view>
+
+  <view class="list-item">
+    <image class="item-image" src="../../images/fankui.png"></image>
     <text class="item-text">反馈</text>  
   </view>  
 </view>
