@@ -1,10 +1,12 @@
 {
   "cloud": true,
   "pages": [
+    
+    "pages/virtualMoney/virtualMoney",
+    "pages/main/main",
     "pages/helpCard/helpCard",
     "pages/needCard/needCard",
     "pages/personManagement/personManagement",
-    "pages/main/main",
     "pages/orderList/orderList",
     "pages/listShow(forHelp)/list",
     "pages/listShow/list",

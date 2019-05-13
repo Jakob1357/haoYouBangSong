@@ -87,8 +87,8 @@
   height: 100rpx;
 }
 .item-image {      
-  width: 60rpx;      
-  height: 60rpx;      
+  width: 50rpx;      
+  height: 50rpx;      
   margin: 20rpx;
 }
 .item-text {      

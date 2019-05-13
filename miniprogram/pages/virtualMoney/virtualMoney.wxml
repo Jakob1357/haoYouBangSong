@@ -1,0 +1,42 @@
+<!--pages/virtualMoney/virtualMoney.wxml-->
+<view class="topStyle">
+  <text class="topStyle-text1">现有虚拟币数量\n</text>
+  <text class="topStyle-text2">25</text>
+</view>
+
+<view class="person-list"> 
+  <view>\n</view>
+  <view class="person-line"></view>  
+  <view>\n</view>
+  <view class="list-item">   
+    <text class="item-text">+5</text>
+    <text class='item-text-list'>原因：完成帮助单</text>
+  </view>
+
+  <view>\n</view>
+  <view class="person-line"></view>  
+  <view>\n</view>
+  <view class="list-item">   
+    <text class="item-text">+5</text>
+    <text class='item-text-list'>原因：取消需求单</text>
+  </view>
+
+  <view>\n</view>
+  <view class="person-line"></view>  
+  <view>\n</view>
+  <view class="list-item">   
+    <text class="item-text">-5</text>
+    <text class='item-text-list'>原因：发布需求单</text>
+  </view>
+
+  <view>\n</view>
+  <view class="person-line"></view>  
+  <view>\n</view>
+  <view class="list-item">
+    <text class="item-text">+20</text> 
+    <text class='item-text-list'>原因：用户注册赠送</text> 
+  </view>  
+  <view>\n</view>
+  <view class="person-line"></view>  
+  <view>\n</view>
+</view>

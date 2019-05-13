@@ -1,4 +1,4 @@
-// pages/personManagement/personManagement.js
+// pages/virtualMoney/virtualMoney.js
 Page({
 
   /**
@@ -62,14 +62,7 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  
-  skipVirtualMoney: function () {
-    wx.redirectTo({
-      url: '../virtualMoney/virtualMoney',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
   }
+
+  
 })

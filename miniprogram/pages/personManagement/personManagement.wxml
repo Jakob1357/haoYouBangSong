@@ -33,7 +33,7 @@
   
   <view class="list-item">    
     <image class="item-image" src="../../images/xunibi.png"></image>
-    <text class="item-text">虚拟币</text>
+    <text bindtap="skipVirtualMoney" class="item-text">虚拟币</text>
   </view>
   <view>\n</view>
   <view class="person-line"></view>  

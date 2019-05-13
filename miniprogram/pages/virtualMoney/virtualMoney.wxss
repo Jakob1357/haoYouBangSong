@@ -1,0 +1,65 @@
+/* pages/virtualMoney/virtualMoney.wxss */
+.topStyle {      
+  display: flex;      
+  flex-direction: column;      
+  align-items: center;      
+  background: #0fac36;       
+  width: 100%;     
+  height: 250rpx;
+}
+
+.topStyle-text1{
+  font-size: 35rpx;
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 40rpx;
+}
+
+.topStyle-text2{
+  font-size: 90rpx;
+  color: white;
+  text-align: center;
+  margin-top: 10rpx;
+  font-weight: 700;
+}
+
+.person-list {      
+  display: flex;      
+  flex-direction: column;      
+  align-items: left;
+  margin-top: 30rpx;
+}
+.list-item {          
+  display: flex;      
+  flex-direction: row;      
+  align-items: center;
+  height: 100rpx;
+  margin-left: 70rpx;
+}
+.item-image {      
+  width: 50rpx;      
+  height: 50rpx;      
+  margin: 20rpx;
+}
+.item-text {      
+  color: gray;      
+  font-size: 40rpx;      
+  margin-left: 60rpx;
+  margin-right: 150rpx;
+  font-family: "微软雅黑";
+  font-weight: 700;
+  width: 150rpx;
+  text-align: right;
+}
+.item-text-list{
+  color: gray;      
+  font-size: 20rpx; 
+  text-align: right;     
+  margin-right: 20rpx;
+}
+.person-line {     
+  width: 80%;      
+  height: 2rpx;     
+  background: lightgray;      
+  margin-left: 90rpx;
+}

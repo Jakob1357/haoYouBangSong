@@ -61,7 +61,6 @@ Page({
       url: "pages/home/home?type=8"
     });
   },
-
   
 
   /**
