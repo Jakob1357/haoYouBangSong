@@ -1,0 +1,52 @@
+<!--pages/orderContent/orderContent.wxml-->
+<view class='userinfo'>
+  <image  class="userinfo-avatar" src="../../images/gerenzhongxin1.png" background-size="cover"></image>
+  <text class="userinfo-nickname">Wincy</text> 
+</view>
+
+<view class='person-list'>
+  <view class='list-item'>
+    <text class='item-address'>收货地址：XXXXXXXXXXX</text>
+  </view>
+  <view class='list-item'>
+    <text class='item-time'>时间：11：30-12：30</text>
+  </view>
+  <view class='person-line'></view>
+  <view class='list-item'>
+    <text class='item-position'>天天餐厅\n</text>
+  </view>
+  <view class='person-line'></view>
+  <view class='order-item'>
+    <text class='order-text1'>巧克力曲奇</text>
+    <text class='order-text2'>*1</text>
+  </view>
+  <view class='order-item'>
+    <text class='order-text1'>巧克力曲奇</text>
+    <text class='order-text2'>*1</text>
+  </view>
+  <view class='order-item'>
+    <text class='order-text1'>炒饭</text>
+    <text class='order-text2'>*1</text>
+  </view>
+  <view class='person-line'></view>
+  <view class='order-item'>
+    <text class='order-text1'>配送费</text>
+    <text class='order-text2'>¥2</text>
+  </view>
+  <view class='person-line'></view>
+  <view class='list-item'>
+    <text class='item-time'>备注</text>
+  </view>
+  <view class='person-line'></view>
+  <view class='item-beizhu'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</view>
+  <view class='person-line'></view>
+  <view class='list-item'>
+    <text class='item-time'>支付方式</text>
+  </view>
+  <view class='person-line'></view>
+  <view class='list-item'>
+    <text class='item-pay'>线上/线下\n</text>
+  </view>
+</view>
+<button class='bottom-btn'>确认接单</button>
+

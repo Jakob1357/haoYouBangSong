@@ -1,0 +1,16 @@
+/* pages/recharge/recharge.wxss */
+.topStyle {      
+  display: flex;      
+  flex-direction: column;      
+  align-items: center;      
+  background: #e8e7e9;       
+  width: 100%;     
+  height: 100rpx;
+}
+.topText{
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(90, 87, 87);
+}

@@ -113,9 +113,10 @@
   /* text-align: center; */
   font-size: 40rpx;
   background-color: rgb(255, 255, 255);
+  border-radius: 0;
 }
 .front-button1::after{
-  border: 0;
+  border-radius: 0;
 }
 
 .front-button2{
@@ -129,9 +130,10 @@
   font-size: 40rpx;
   /* padding-top: 8rpx; */
   background-color: rgb(221, 206, 206);
+  border-radius: 0;
 }
 .front-button2::after{
-  border: 0;
+  border-radius: 0;
 }
 
 .open-data-userAvatarUrl {

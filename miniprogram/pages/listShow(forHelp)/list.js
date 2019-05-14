@@ -15,6 +15,14 @@ Page({
       complete: function (res) { },
     })
   },
+  skipOrderContent: function () {
+    wx.navigateTo({
+      url: '../orderContent/orderContent',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
   /**
    * 页面的初始数据
    */

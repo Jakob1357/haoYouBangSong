@@ -1,0 +1,141 @@
+/* pages/orderContent/orderContent.wxss */
+.userinfo {      
+  display: flex;      
+  flex-direction: column;      
+  align-items: center;      
+  background: #ae58ff;       
+  width: 100%;     
+  height: 250rpx;
+  position: fixed;
+  top: 0;
+}
+.userinfo-btn{      
+  margin-top: 50rpx;      
+  background: none !important;      
+  color: #fff !important;      
+  font-size: 40rpx;
+}
+.account-bg {      
+  width: 100%;      
+  height: 150rpx;
+}
+.userinfo-avatar {      
+  width: 100rpx;      
+  height: 100rpx;      
+  margin: 50rpx 40rpx 10rpx 40rpx;
+  /* display: block; */
+  border-radius: 80rpx;
+}
+.userinfo-avatar::after{
+  border-radius: 80rpx;
+}
+.userinfo-nickname {      
+  color: #fff;
+}
+
+.person-list {      
+  display: flex;      
+  flex-direction: column;      
+  align-items: left;
+  margin-top: 260rpx;
+  margin-bottom: 100rpx;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+}
+.list-item {          
+  display: flex;      
+  flex-direction: row;      
+  align-items: center;
+  height: 80rpx;
+}
+.item-image {      
+  width: 50rpx;      
+  height: 50rpx;      
+  margin: 20rpx;
+}
+.item-address {      
+  color: black;      
+  font-size: 40rpx;      
+  margin-left: 40rpx;
+  font-family: "微软雅黑";
+  font-weight: 700;
+}
+.item-time {      
+  color: gray;      
+  font-size: 30rpx;      
+  margin-left: 40rpx;
+  font-family: "微软雅黑";
+  font-weight: 700;
+}
+.item-position{
+  color: gray;      
+  font-size: 30rpx;      
+  margin-left: 40rpx;
+  font-family: "微软雅黑";
+  font-weight: 700;
+}
+.order-item {          
+  display: flex;      
+  flex-direction: row;      
+  align-items: center;
+  height: 100rpx;
+}
+.order-text1{
+  color: gray;   
+  width: 200rpx;   
+  font-size: 30rpx;      
+  margin-left: 150rpx;
+  font-family: "微软雅黑";
+  font-weight: 700;
+}
+.order-text2{
+  color: gray; 
+  width: 260rpx;    
+  font-size: 30rpx;    
+  text-align: right;  
+  font-family: "微软雅黑";
+  font-weight: 700;
+}
+.item-beizhu{
+  color: gray;      
+  font-size: 30rpx;      
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+  font-family: "微软雅黑";
+  font-weight: 700;
+  width: 90%;
+  word-break: keep-all;
+  word-wrap: break-word
+}
+.item-pay{
+  color: gray; 
+  width: 650rpx;  
+  margin-left: 20rpx;  
+  font-size: 30rpx;    
+  text-align: right;  
+  font-family: "微软雅黑";
+  font-weight: 700;
+}
+.bottom-btn{
+  height: 90rpx;
+  width: 110%;
+  color: white;
+  background-color: goldenrod;
+  font-size: 40rpx;
+  font-weight: 700;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  border-radius: 0;
+}
+.bottom-btn::after{
+  border-radius: 0;
+}
+.person-line {     
+  width: 100%;      
+  height: 2rpx;     
+  background: lightgray;      
+  margin-left: 0rpx;
+}

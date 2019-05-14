@@ -4,6 +4,11 @@
   <text class="topStyle-text2">25</text>
 </view>
 
+<view>
+  <image class='tabPhoto' src='../../images/chongzhi.png' bindtap='skipRecharge'></image>
+  <text class='chongzhi-text'>充值中心</text>
+</view>
+
 <view class="person-list"> 
   <view>\n</view>
   <view class="person-line"></view>  
@@ -36,7 +41,5 @@
     <text class="item-text">+20</text> 
     <text class='item-text-list'>原因：用户注册赠送</text> 
   </view>  
-  <view>\n</view>
-  <view class="person-line"></view>  
-  <view>\n</view>
+   
 </view>

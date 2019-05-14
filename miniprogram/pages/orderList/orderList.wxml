@@ -1,16 +1,29 @@
 <view class="page-wrapper ">
-  <view class="info-list js_info_list ">
+<view class="info-list js_info_list ">
     <view data-supplierid="100020" data-key="" class="info-list-item  ">
-      <!-- <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>
-      </view> -->
-      <!-- <view class="helpbutton"> 帮TA 
-      </view> -->
       <view class="detail">
         <view class="start">
-          <text class="icon-circle s-icon1">（地点）</text> 
+          <text class="s-icon1">（地点） （预期时间）</text> 
           <text class="situation">已完成</text>
         </view>
-       
+        <view class="end">
+          <text class="icon-circle s-icon2">下单时间：11:30\n</text>
+          <text class="icon-circle s-icon2">物品内容：XXX\n</text>
+          <text class="icon-circle s-icon2">需求人：XX\n</text>
+          <text class="icon-circle s-icon2">帮送人：XX\n</text>
+          <text class="icon-circle s-icon3">总价：XX</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="info-list js_info_list ">
+    <view data-supplierid="100020" data-key="" class="info-list-item  ">
+      <view class="detail">
+        <view class="start">
+          <text class="s-icon1">（地点）</text> 
+          <text class="situation">已完成</text>
+        </view>
         <view class="end">
           <text class="icon-circle s-icon2">下单时间：11:30\n</text>
           <text class="icon-circle s-icon2">物品内容：XXX\n</text>

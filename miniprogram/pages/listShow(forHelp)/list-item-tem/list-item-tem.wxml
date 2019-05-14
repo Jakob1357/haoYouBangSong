@@ -5,7 +5,7 @@
   <view class="info-list js_info_list ">
     <view data-supplierid="100020" data-key="" class="info-list-item  ">
       <view style='margin:0rpx auto'><open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data></view>
-  <view class="helpbutton"> 帮TA </view>
+  <view bindtap='skipOrderContent' class="helpbutton"> 帮TA </view>
     <view class="detail">
       <view class="start">
         <text class="icon-circle s-icon1">XXX</text>

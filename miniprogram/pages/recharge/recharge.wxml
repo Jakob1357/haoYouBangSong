@@ -1,0 +1,4 @@
+<!--pages/recharge/recharge.wxml-->
+<view class="topStyle">
+  <text class="topText">请选择充值金额</text>
+</view>

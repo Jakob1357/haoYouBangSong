@@ -1,4 +1,4 @@
-// pages/virtualMoney/virtualMoney.js
+// pages/recharge/recharge.js
 Page({
 
   /**
@@ -62,16 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  skipRecharge: function () {
-    wx.navigateTo({
-      url: '../recharge/recharge',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
-  },
-
-  
+  }
 })

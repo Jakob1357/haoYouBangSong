@@ -70,18 +70,19 @@
 
 
 .info-list .info-list-item .start, .info-list .info-list-item .end {
- color: #333333;
- font-size: 26rpx;
+  color: #333333;
+  font-size: 26rpx;
 }
 
-.info-list .info-list-item .s-icon1 {
+.s-icon1 {
   margin: 0 30rpx;
-  border-color: #00B358;
   font-size: 30rpx;
+  text-align: left;
+  width: 300rpx;
 }
 
 .info-list .info-list-item .s-icon2 {
-  margin: 0 10rpx 0 150rpx;
+  margin: 0 10rpx 0 100rpx;
   border-color: #f06463;
 }
 
@@ -98,12 +99,14 @@
   border-color: #f06463;
 }
 
-.info-list .info-list-item .situation{
+.situation{
+  width: 400rpx;
   font-size: 35rpx;
   color: rgb(69, 197, 69);
   text-align: right;
   font-weight: 700;
-  margin-left: 400rpx;
+  left: 300rpx;
+  right: 0;
 }
 
 .add-icon{

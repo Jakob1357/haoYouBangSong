@@ -41,6 +41,6 @@
 
   <view class="list-item">
     <image bindtap="skipFeedback" class="item-image" src="../../images/fankui.png"></image>
-    <text bindtap="skipFeedback" class="item-text">反馈</text>  
+    <text bindtap="skipFeedback" class="item-text">用户体验反馈</text>  
   </view>  
 </view>
