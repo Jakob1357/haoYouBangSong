@@ -1,3 +1,4 @@
+<!--pages/viewOrder/viewOrder.wxml-->
 <!--pages/orderContent/orderContent.wxml-->
 <view class='userinfo'>
   <image  class="userinfo-avatar" src="../../images/gerenzhongxin1.png" background-size="cover"></image>
@@ -5,8 +6,8 @@
 </view>
 
 <view class='person-list'>
-  <view class='list-item1'>
-    <text class='item-situation'>已完成</text>
+<view class='list-item1'>
+    <text class='item-situation'>待接单</text>
   </view>
   <view class='list-item'>
     <text class='item-address'>收货地址：XXXXXXXXXXX</text>
@@ -51,5 +52,5 @@
     <text class='item-pay'>线上/线下\n</text>
   </view>
 </view>
-<button class='bottom-btn'>确认接单</button>
+
 

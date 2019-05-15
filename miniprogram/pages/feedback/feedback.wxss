@@ -29,6 +29,14 @@
 } 
 .text {  
   margin-left: 30rpx;
+  font-size: 35rpx;
+}
+.text1{
+  margin-left: 10rpx;
+}
+.text2{
+  margin-left: 10rpx;
+  font-size: 30rpx;
 }
 .tapType{
   width: 80%;
@@ -45,4 +53,17 @@
 .tapType::after{
   border-radius: 98rpx;
   border: 0;
+}
+
+.section1{
+  margin-left: 30rpx;
+}
+
+.section2{
+  width: 90%;
+  font-size: 30rpx;
+  color: #333333;
+  height: 150rpx;
+  border: 2rpx solid grey;
+  margin-left: 35rpx;
 }

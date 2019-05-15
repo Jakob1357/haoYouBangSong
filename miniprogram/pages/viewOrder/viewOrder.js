@@ -1,22 +1,11 @@
-// pages/feedback/feedback.js
+// pages/viewOrder/viewOrder.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    itemList: [      
-      { id: 1, name: '运行卡顿', isSelected: false, },      
-      { id: 2, name: '程序崩溃', isSelected: false, },      
-      { id: 3, name: '管理问题', isSelected: false, },    
-      { id: 4, name: '订单问题', isSelexted: false, },
-    ]
-  },
-  itemSelected: function (e) { 
-    var index = e.currentTarget.dataset.index; 
-    var item = this.data.itemList[index]; 
-    item.isSelected = !item.isSelected; 
-    this.setData({ itemList: this.data.itemList, }); 
+
   },
 
   /**
@@ -73,14 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  skipSuccess: function () {
-    wx.redirectTo({
-      url: '../feedback/success/success',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
-  },
+  }
 })

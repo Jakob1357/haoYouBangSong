@@ -58,7 +58,7 @@
   background-color: #c5c5c5;
 }
 
-.info-list .info-list-item .detail {
+.detail {
  height: 80rpx;
  padding: 18rpx 0;
  margin: 0 30rpx 0 30rpx;
@@ -69,16 +69,23 @@
 }
 
 
-.info-list .info-list-item .start, .info-list .info-list-item .end {
+.start{
+  display: flex;      
+  flex-direction: row;      
+  align-items: center;
+} 
+
+.end {
   color: #333333;
   font-size: 26rpx;
 }
 
 .s-icon1 {
-  margin: 0 30rpx;
-  font-size: 30rpx;
-  text-align: left;
-  width: 300rpx;
+  margin: 0 20rpx;
+  width: 400rpx;   
+  font-size: 30rpx;  
+  font-family: "微软雅黑";
+  font-weight: 700;
 }
 
 .info-list .info-list-item .s-icon2 {
@@ -100,13 +107,12 @@
 }
 
 .situation{
-  width: 400rpx;
-  font-size: 35rpx;
   color: rgb(69, 197, 69);
-  text-align: right;
+  width: 200rpx; 
+  font-size: 35rpx;    
+  text-align: right;  
+  font-family: "微软雅黑";
   font-weight: 700;
-  left: 300rpx;
-  right: 0;
 }
 
 .add-icon{

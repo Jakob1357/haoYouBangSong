@@ -1,3 +1,4 @@
+/* pages/viewOrder/viewOrder.wxss */
 /* pages/orderContent/orderContent.wxss */
 .userinfo {      
   display: flex;      

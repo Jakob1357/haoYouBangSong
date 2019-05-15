@@ -2,6 +2,7 @@
   "cloud": true,
   "pages": [
     "pages/main/main",
+    "pages/viewOrder/viewOrder",
     "pages/orderContent/orderContent",
     
     "pages/recharge/recharge",
