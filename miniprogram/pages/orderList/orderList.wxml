@@ -3,8 +3,13 @@
     <view bindtap='skipOrderContent' data-supplierid="100020"  class="info-list-item">
       <view class="detail">
         <view class="start">
-          <text class="s-icon1">（地点） （预期时间）</text> 
-          <text class="situation">正在进行</text>
+          <text class="s-icon1">（地点） （需求时间）</text> 
+
+          <block wx:for="{{labArr}}" wx:key="key" wx:for-index="key" wx:for-item="v">
+            <view class='situation' data-key="{{key}}" style="color:{{colorArr[key]}}">{{v}}</view>
+          </block>
+    
+          <!-- <text class="situation">正在进行</text> -->
         </view>
         <view class="end">
           <text class="icon-circle s-icon2">下单时间：11:30\n</text>

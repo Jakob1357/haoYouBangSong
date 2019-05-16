@@ -12,7 +12,7 @@
     <text class='item-address'>收货地址：XXXXXXXXXXX</text>
   </view>
   <view class='list-item'>
-    <text class='item-time'>时间：11：30-12：30</text>
+    <text class='item-time'>需求时间：11：30-12：30</text>
   </view>
   <view class='person-line'></view>
   <view class='list-item'>

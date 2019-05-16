@@ -1,5 +1,5 @@
 Page({
-  adddetial: function () {
+  skipHelpCard: function () {
     wx.navigateTo({
       url: '../helpCard/helpCard',
       success: function (res) { },

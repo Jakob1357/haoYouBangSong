@@ -1,0 +1,20 @@
+function status(id) { 
+  var statusJson = {}; 
+  var x = ""; 
+  var y = ""; 
+  
+  switch (id) { 
+    case 0: x = "待接单"; y = "green"; break; 
+    case 1: x = "正在进行"; y = "blue"; break; 
+    case 2: x = "已终止"; y = "red"; break; 
+    case 3: x = "已完成"; y = "grey"; break; 
+  }  
+
+  statusJson.x = x; 
+  statusJson.y = y; 
+  return statusJson; 
+}
+
+module.exports = {
+  status: status
+}

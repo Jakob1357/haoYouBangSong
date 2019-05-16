@@ -1,5 +1,5 @@
 Page({
-  adddetial: function(){
+  skipNeedCard: function(){
     wx.navigateTo({
       url: '../needCard/needCard',
       success: function (res) { },

@@ -145,3 +145,18 @@
   margin: 50rpx auto;
   float: left;
 }
+.bottom-btn{
+  height: 90rpx;
+  width: 110%;
+  color: #333333;
+  background-color: palevioletred;
+  font-size: 40rpx;
+  font-weight: 700;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  border-radius: 0;
+}
+.bottom-btn::after{
+  border-radius: 0;
+}

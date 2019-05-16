@@ -26,9 +26,7 @@
 </view> -->
 
 
-<view bindtap='adddetial'>
-      <image class="add-icon" src="../../images/PLUS.png"></image>
-</view>
+<button bindtap='skipNeedCard' class='bottom-btn'>填写求助/帮助卡片</button>
 
 <button class="front-button1">求助</button>
 <button bindtap='skipToHelp' class="front-button2">帮助</button>
