@@ -33,5 +33,5 @@
   </view>
 </view>
 
-<button bindtap="skipNeedCard" class="front-button1">求助</button>
+<button bindtap="skipNeedCard" class="front-button1">填写求助卡片</button>
 <button class="front-button2">帮助</button>

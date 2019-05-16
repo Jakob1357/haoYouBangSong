@@ -1,9 +1,11 @@
 {
   "cloud": true,
   "pages": [
+    "pages/needCard/needCard",
+    "pages/helpCard/helpCard",
     "pages/main/main",
     "pages/viewOrder/viewOrder",
-    "pages/orderContent/orderContent",
+    "pages/orderContent/orderContent",    
     
     "pages/recharge/recharge",
     "pages/virtualMoney/virtualMoney",
@@ -12,8 +14,8 @@
     "pages/feedback/success/success",
     "pages/orderList/orderList",
     
-    "pages/helpCard/helpCard",
-    "pages/needCard/needCard",
+    
+    
     "pages/personManagement/personManagement",
     "pages/listShow(forHelp)/list",
     "pages/listShow/list",

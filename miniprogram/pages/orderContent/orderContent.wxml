@@ -2,12 +2,13 @@
 <view class='userinfo'>
   <image  class="userinfo-avatar" src="../../images/gerenzhongxin1.png" background-size="cover"></image>
   <text class="userinfo-nickname">Wincy</text> 
+  <image class='zhuangtai' src='../../images/dingdanzhuangtai5.png'></image>
 </view>
 
 <view class='person-list'>
-  <view class='list-item1'>
-    <text class='item-situation'>已完成</text>
-  </view>
+  <!-- <view class='list-item'>
+    <image class='zhuangtai' src='../../images/dingdanzhuangtai5.png'></image>
+  </view> -->
   <view class='list-item'>
     <text class='item-address'>收货地址：XXXXXXXXXXX</text>
   </view>

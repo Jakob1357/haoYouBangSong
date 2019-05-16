@@ -3,9 +3,9 @@
   display: flex;      
   flex-direction: column;      
   align-items: center;      
-  background: #ae58ff;       
+  background: rgb(196, 195, 195);       
   width: 100%;     
-  height: 250rpx;
+  height: 360rpx;
   position: fixed;
   top: 0;
 }
@@ -20,24 +20,26 @@
   height: 150rpx;
 }
 .userinfo-avatar {      
-  width: 100rpx;      
-  height: 100rpx;      
-  margin: 50rpx 40rpx 10rpx 40rpx;
+  width: 120rpx;      
+  height: 120rpx;      
+  margin: 40rpx 40rpx 10rpx 40rpx;
   /* display: block; */
-  border-radius: 80rpx;
+  border-radius: 110rpx;
 }
 .userinfo-avatar::after{
-  border-radius: 80rpx;
+  border-radius: 110rpx;
 }
 .userinfo-nickname {      
-  color: #fff;
+  color: #333333;
+  font-size: 35rpx;
+  font-weight: 700;
 }
 
 .person-list {      
   display: flex;      
   flex-direction: column;      
   align-items: left;
-  margin-top: 260rpx;
+  margin-top: 360rpx;
   margin-bottom: 100rpx;
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: transparent;
@@ -151,4 +153,11 @@
   right: 0rpx;
   font-family: "微软雅黑";
   font-weight: 700;
+}
+.zhuangtai{
+  margin-left: 0rpx;
+  margin-top: 0rpx;
+  margin-bottom: 0;
+  width: 700rpx;
+  height: 200rpx;
 }
