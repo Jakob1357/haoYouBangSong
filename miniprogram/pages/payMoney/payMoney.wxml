@@ -1,0 +1,17 @@
+<!--pages/payMoney/payMoney.wxml-->
+<view class='topStyle'>
+  <text class='topText'>请填写订单应结算金额</text>
+</view>
+
+
+
+<input class='box' maxlength="10" name="phoneNumber" placeholder="请您输入结算金额" bindinput="getInput"/>
+
+<!-- <view class='item_container'>
+  <text class='text2'>您还有什么想对我们说的，以便我们可以做得更好！\n</text>
+</view>
+
+<input class='section2' maxlength="100" name="restaurant"     bindinput="getInput"/>  -->
+
+<view><button bindtap="skipOrderEnd" class='tapType'>结算</button></view>
+

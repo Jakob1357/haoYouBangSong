@@ -1,4 +1,4 @@
-// pages/orderContent/orderContent.js
+// pages/payMoney/payMoney.js
 Page({
 
   /**
@@ -63,10 +63,9 @@ Page({
   onShareAppMessage: function () {
 
   },
-
-  skipToOrderDoing: function () {
+  skipOrderEnd: function () {
     wx.redirectTo({
-      url: '../orderDoing(Send)/orderDoing(Send)',
+      url: '../orderError/orderError',
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },

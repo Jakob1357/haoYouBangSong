@@ -1,4 +1,4 @@
-// pages/orderContent/orderContent.js
+// pages/orderDoing(Get)/orderDoing(Get).js
 Page({
 
   /**
@@ -64,9 +64,9 @@ Page({
 
   },
 
-  skipToOrderDoing: function () {
+  skipToPay: function () {
     wx.redirectTo({
-      url: '../orderDoing(Send)/orderDoing(Send)',
+      url: '../payMoney/payMoney',
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },

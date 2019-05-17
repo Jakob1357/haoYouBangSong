@@ -1,0 +1,6 @@
+<!--pages/endReason/success/success.wxml-->
+<view class='topStyle'>
+  <text class="topText">谢谢您的反馈！</text>
+</view>
+
+<view><button bindtap="skipOrderError" class='tapType'>返回</button></view>

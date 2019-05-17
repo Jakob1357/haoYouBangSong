@@ -5,7 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-    storage: ''
+    storage: '',
+    selectShow: false,//控制下拉列表的显示隐藏，false隐藏、true显示
+    selectData: ['美食园', '风味餐厅', '奥运餐厅一层', '奥运餐厅二层', '清真餐厅', '三食', '京客隆(奥运餐厅店）', '京客隆（三食店）', 'luckin coffee（学生服务中心店）', 'luckin coffee（理科楼）'],//下拉列表的数据
+    index: 0,
+  },
+  
+  selectTap() {
+    this.setData({
+      selectShow: !this.data.selectShow
+    });
+  },
+  // 点击下拉列表
+  optionTap(e) {
+    let Index = e.currentTarget.dataset.index;//获取点击的下拉列表的下标
+    this.setData({
+      index: Index,
+      selectShow: !this.data.selectShow
+    });
   },
 
   /**

@@ -1,4 +1,4 @@
-// pages/orderContent/orderContent.js
+// pages/orderDoing(Send)/orderDoing(Send).js
 Page({
 
   /**
@@ -64,9 +64,9 @@ Page({
 
   },
 
-  skipToOrderDoing: function () {
-    wx.redirectTo({
-      url: '../orderDoing(Send)/orderDoing(Send)',
+  skipEndReason: function () {
+    wx.navigateTo({
+      url: '../endReason/endReason',
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },

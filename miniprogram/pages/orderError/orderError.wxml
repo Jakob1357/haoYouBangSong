@@ -1,5 +1,4 @@
-<!--pages/viewOrder/viewOrder.wxml-->
-<!--pages/orderContent/orderContent.wxml-->
+<!--pages/orderError/orderError.wxml-->
 <view class='userinfo'>
   <view class='user-box1'>
     <view class='user-box2'>
@@ -15,8 +14,9 @@
 </view>
 
 <view class='person-list'>
-<view class='list-item1'>
-  </view>
+  <!-- <view class='list-item'>
+    <image class='zhuangtai' src='../../images/dingdanzhuangtai5.png'></image>
+  </view> -->
   <view class='list-item'>
     <text class='item-address'>收货地址：XXXXXXXXXXX</text>
   </view>
@@ -60,5 +60,6 @@
     <text class='item-pay'>线上/线下\n</text>
   </view>
 </view>
+<button class='bottom-btn' bindtap='skipMain'>订单已终止(回到首页)</button>
 
 

@@ -1,10 +1,22 @@
-// pages/orderContent/orderContent.js
+// pages/endReason/endReason.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    itemList: [
+      { id: 1, name: '饭菜洒了', isSelected: false, },
+      { id: 2, name: '排队时间过长', isSelected: false, },
+      { id: 3, name: '物品售罄', isSelected: false, },
+      { id: 4, name: '联系不上买方', isSelexted: false, },
+    ]
+  },
+  itemSelected: function (e) {
+    var index = e.currentTarget.dataset.index;
+    var item = this.data.itemList[index];
+    item.isSelected = !item.isSelected;
+    this.setData({ itemList: this.data.itemList, }); 
 
   },
 
@@ -64,9 +76,11 @@ Page({
 
   },
 
-  skipToOrderDoing: function () {
+  
+
+  skipSuccess: function () {
     wx.redirectTo({
-      url: '../orderDoing(Send)/orderDoing(Send)',
+      url: '../endReason/success/success',
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },

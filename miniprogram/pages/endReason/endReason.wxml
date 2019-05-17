@@ -1,0 +1,24 @@
+<!--pages/endReason/endReason.wxml-->
+<!--pages/feedback/feedback.wxml-->
+<view class='topStyle'>
+  <text class='topText'>请选择您想终止订单的原因</text>
+</view>
+
+<view class='item_container'>
+  <text class='text1'>问题类别：</text>
+</view>
+
+<block wx:for="{{itemList}}" wx:key="id">  
+  <view class='item_container' bindtap='itemSelected' data-index='{{index}}'>     
+    <image class='select_icon' src="{{item.isSelected?'/images/xuanzhong.png':'/images/weixuanzhong.png'}}"></image>    
+     <text class='text'>{{item.name}}</text>  
+  </view>
+</block>
+
+<!-- <view class='item_container'>
+  <text class='text2'>您还有什么想对我们说的，以便我们可以做得更好！\n</text>
+</view>
+
+<input class='section2' maxlength="100" name="restaurant"     bindinput="getInput"/>  -->
+
+<view><button bindtap="skipSuccess" class='tapType'>提交</button></view>

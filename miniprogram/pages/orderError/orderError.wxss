@@ -9,17 +9,6 @@
   position: fixed;
   top: 0;
 }
-
-.user-box1{
-  display: flex;      
-  flex-direction: row;
-}
-.user-box2{
-  display: flex;      
-  flex-direction: column;
-  margin: 0rpx 30rpx;
-}
-
 .userinfo-btn{      
   margin-top: 50rpx;      
   background: none !important;      
@@ -42,7 +31,7 @@
 }
 .userinfo-nickname {      
   color: #333333;
-  font-size: 30rpx;
+  font-size: 35rpx;
   font-weight: 700;
 }
 
@@ -135,7 +124,7 @@
   height: 90rpx;
   width: 110%;
   color: white;
-  background-color: goldenrod;
+  background-color: grey;
   font-size: 40rpx;
   font-weight: 700;
   text-align: center;
@@ -171,4 +160,14 @@
   margin-bottom: 0;
   width: 700rpx;
   height: 200rpx;
+}/* pages/orderError/orderError.wxss */
+
+.user-box1{
+  display: flex;      
+  flex-direction: row;
+}
+.user-box2{
+  display: flex;      
+  flex-direction: column;
+  margin: 0rpx 30rpx;
 }

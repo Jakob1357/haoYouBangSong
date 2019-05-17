@@ -1,21 +1,24 @@
 {
   "cloud": true,
   "pages": [
-    "pages/needCard/needCard",
-    "pages/helpCard/helpCard",
     "pages/main/main",
+    "pages/payMoney/payMoney",
+    
+    "pages/orderDoing(Get)/orderDoing(Get)",
+    "pages/orderDoing(Send)/orderDoing(Send)",
+    "pages/orderError/orderError",
     "pages/viewOrder/viewOrder",
     "pages/orderContent/orderContent",    
-    
+    "pages/needCard/needCard",
+    "pages/helpCard/helpCard",
     "pages/recharge/recharge",
     "pages/virtualMoney/virtualMoney",
     
+    "pages/endReason/endReason",
+    "pages/endReason/success/success",
     "pages/feedback/feedback",
     "pages/feedback/success/success",
     "pages/orderList/orderList",
-    
-    
-    
     "pages/personManagement/personManagement",
     "pages/listShow(forHelp)/list",
     "pages/listShow/list",

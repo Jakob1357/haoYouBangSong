@@ -5,25 +5,43 @@
   <text>\n</text>
   <view class='card'>
     <form bindsubmit='res'>  
-      <view class="section1">    
-      <input maxlength="10" name="restaurant" placeholder="请您输入餐厅"     bindinput="getInput"/>  
+      <view class="section1">  
+        <text class='front-text'>餐厅</text> 
+        <view class='select_box' style="opacity:{{1}}">
+          <view class='select' catchtap='selectTap'>
+            <text class='select_text'>{{selectData[index]}}</text>
+            <image class='select_img {{selectShow&&"select_img_rotate"}}' src='../../images/xiajiantou.png'  background-size="contain"></image>
+          </view>
+          <view class='option_box' style='height:{{selectShow?(selectData.length>5?325:selectData.length*50):0}}rpx;'>
+            <text class='option' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+          </view>
+        </view> 
       </view>
+
       <text>\n</text>
       <view class="section1">    
-      <input maxlength="10" name="needIn" placeholder="请您输入需求信息" bindinput="getInput"/>  
+        <text class='front-text'>需求信息</text>
+        <input class='box' maxlength="10" name="needIn" placeholder="请输入需求信息" bindinput="getInput"/>  
       </view>
+
       <text>\n</text>
       <view class="section1">    
-      <input maxlength="10" name="time" placeholder="请您输入时间区间(如11：30-12：30)" bindinput="getInput"/>  
+        <text class='front-text'>时间区间</text>
+        <input class='box' maxlength="10" name="time" placeholder="如11：30-12：30" bindinput="getInput"/>  
       </view>
+
       <text>\n</text>
-      <view class="section1">    
-      <input maxlength="10" name="phoneNumber" placeholder="请您输入联系方式" bindinput="getInput"/>  
+      <view class="section1"> 
+        <text class='front-text'>联系方式</text>
+        <input class='box' maxlength="10" name="phoneNumber" placeholder="请您输入联系方式" bindinput="getInput"/>  
       </view>
+
       <text>\n</text>
-      <view class="section1">    
-      <input maxlength="10" name="more" placeholder="请您输入备注"     bindinput="getInput"/>  
+      <view class="section1">  
+        <text class='front-text'>备注信息</text>  
+        <input class='box' name="more" placeholder="请您输入备注"     bindinput="getInput"/>  
       </view>
+
       <text class='blank1'>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</text>
       <text class='blank1'>\n</text>
       <view><button class='tapType' form-type='submit' bindtap='onTapToSuccess' >提交</button></view>
@@ -35,15 +53,7 @@
     </view>
   </view>
 
-  <view class='select_box'>
-    <view class='select' catchtap='selectTap'>
-        <text class='select_text'>{{selectData[index]}}</text>
-        <image class='select_img {{selectShow&&"select_img_rotate"}}' src='../../images/xiajiantou.png'  background-size="contain"></image>
-    </view>
-    <view class='option_box' style='height:{{selectShow?(selectData.length>5?325:selectData.length*50):0}}rpx;'>
-        <text class='option' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
-    </view>
-  </view>
+  
 </view>
 
 <button class="front-button1">求助</button>

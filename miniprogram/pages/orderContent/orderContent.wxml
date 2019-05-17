@@ -52,5 +52,5 @@
     <text class='item-pay'>线上/线下\n</text>
   </view>
 </view>
-<button class='bottom-btn'>确认接单</button>
+<button class='bottom-btn' bindtap='skipToOrderDoing'>确认接单</button>
 

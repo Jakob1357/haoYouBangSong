@@ -1,4 +1,4 @@
-// pages/orderContent/orderContent.js
+// pages/endReason/success/success.js
 Page({
 
   /**
@@ -63,10 +63,19 @@ Page({
   onShareAppMessage: function () {
 
   },
+  skipMain: function () {
+    wx.navigateBack({
+      // url: 'pages/main/main',
+      // success: function (res) { },
+      // fail: function (res) { },
+      // complete: function (res) { },
+      delta: 5
+    })
+  },
 
-  skipToOrderDoing: function () {
+  skipOrderError: function () {
     wx.redirectTo({
-      url: '../orderDoing(Send)/orderDoing(Send)',
+      url: '../../orderError/orderError',
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },

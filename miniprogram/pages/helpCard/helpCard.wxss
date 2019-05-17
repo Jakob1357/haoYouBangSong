@@ -5,9 +5,9 @@
     color: #333;
     background-color: #ffffff;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-    -webkit-tap-highlight-color: transparent;
-    min-height:2000rpx;
+    /* -webkit-overflow-scrolling: touch; */
+    min-height:1150rpx;
+    margin-top: 30rpx;
 }
 
 .needtext{
@@ -23,8 +23,15 @@
 }
 
 .section1{
-  font-size: 40;
-  color: #b42828;
+  height: 80rpx; 
+  display: flex;      
+  flex-direction: row;
+}
+
+.section2{
+  height: 200rpx; 
+  display: flex;      
+  flex-direction: column;
 }
 
 .blank1{
@@ -76,9 +83,21 @@
   justify-content: center;
 }
 
+.tapType::after{
+  border-radius: 98rpx;
+  border: 0;
+}
+
+.line{
+  width: 80%;      
+  height: 2rpx;     
+  background: lightgray;      
+  margin-left: 90rpx;
+}
+
 .square{
   border: 8rpx dotted gray;
-  margin-top: 100rpx;
+  margin-top: 60rpx;
   height: 100rpx;
   font-size: 30rpx;
 }
@@ -91,6 +110,93 @@
 
 .text{
   font-size:20rpx;
+}
+
+.select_box{
+  width:530rpx;
+  height:90%;
+  border-radius: 14rpx;
+  position: relative;
+  background-color: white;
+  margin-left: 25rpx;
+}
+.select_box .select{
+  box-sizing: border-box;
+  width: 100%;
+  height: 80rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid silver;
+  display: flex;
+  align-items: center;
+  padding: 0 10rpx;
+  background-color: white;
+}
+.select_box .select .select_text{
+  font-size: 35rpx;
+  color: #000000;
+  line-height: 42rpx;
+  flex: 1;
+}
+.select_box .select .select_img{
+  width: 30rpx;
+  height: 30rpx;
+  display: block;
+  transition:transform 0.3s;
+}
+.select_box .select .select_img_rotate{
+  transform:rotate(180deg); 
+}
+.select_box .option_box{
+  position: absolute;
+  top: calc(100% - 0rpx);
+  width: 100%;
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  background: #fff;
+  transition: height 0.3s;
+  border-left:1px solid #efefef;
+  border-right:1px solid #efefef;
+  background-color: white;
+  display: block;
+}
+.select_box .option_box .option{
+  display: block;
+  line-height: 46rpx; 
+  font-size:35rpx;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+  background-color: white;
+}
+
+.front-text{
+  font-size: 40rpx;
+  color: #333333;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-weight: 700;
+}
+
+.box{
+  height: 80rpx;
+  font-size: 35rpx;
+  word-break: keep-all;
+  word-wrap: break-word;
+  width: 450rpx;
+  margin-left: 20rpx;
+  border: 1rpx solid silver;
+  border-bottom: 1rpx solid silver;
+}
+ 
+.beizhu{
+  height: 160rpx;
+  font-size: 35rpx;
+  word-break: keep-all;
+  word-wrap: break-word;
+  width: 80%;
+  margin-left: 20rpx;
+  border: 1rpx solid silver;
 }
 
 /* .tap{
